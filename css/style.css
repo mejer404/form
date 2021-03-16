@@ -1,16 +1,6 @@
   
 :root {
-  --basic-black: #000000;
-  --basic-extra-dark: #766357;
-  --basic-dark: #aba9a7;
-  --basic-neutral: #eeeeee;
-  --basic-extra-light: #f8f5f2;
-  --basic-white: #ffffff;
-  --basic-grey: #333333;
-  --baasic-dark-grey: #666666;
-  --basic-darkgrey: #F2F2F2;
-  --basic-brown: #766357;
-  --basic-blue: #81B3D2;
+ --basic-blue: #81B3D2;
 }
 /* Global */
 
@@ -93,6 +83,7 @@ desplay:block;
   font-size: 21px;
   line-height: 26px;
   justify-self: center;
+  width: 150px;
 }
 .date{
 desplay:block;
