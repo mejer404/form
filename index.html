@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>HTML Academy: Седона</title>
+ 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+   	<title>Формма заполнения</title>
+</head>
+
+<body>
+     
+    <section class="appointment">
+
+         <h2 class="hiden">Форма отправки уведомления о доставке заказа </h2>
+
+        <form class="form">
+
+        <p class="date"><label for="appointment-date">Номер маршрутного листа</label><input id="appointment-date" type="text" name="datein" placeholder="только номер"></p>
+       <p class="date"><label for="appointment-date1">Дата прибытия</label><input id="appointment-date1" type="text" name="dateout" placeholder="01.01.2020"></p>
+        
+    <div class="small-form">
+      <select name="select1">
+	<option selected="selected">Возврат</option>
+	<option>Да</option>
+	<option>Нет</option>
+      </select>
+
+      <select name="select2">
+	<option selected="selected">Приход</option>
+	<option>Да</option>
+	<option>Нет</option>
+      </select>
+     </div>
+
+<button class="search" type="submit">Отправить</button>
+      </form>
+    </section>
+</body>
+</html>
