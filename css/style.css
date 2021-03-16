@@ -87,11 +87,12 @@ desplay:block;
 }
 
 .search {
-desplay:block;
+  desplay:block;
   background-color: var(--basic-blue);
   text-align: center;
   font-size: 21px;
   line-height: 26px;
+  justify-self: center;
 }
 .date{
 desplay:block;
