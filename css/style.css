@@ -74,6 +74,7 @@ img {
 .small-form{
   desplay:block;
   justify-self: center;
+  align-self: center
 }
 
 .search {
